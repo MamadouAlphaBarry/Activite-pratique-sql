@@ -15,7 +15,13 @@
 <img src="tousLesEmployes.PNG" alt="DATABASE" >
  <pre> SELECT employes.NOM,departements.NOM FROM `employes` JOIN departements;</pre>
 <img src="EMP_DEP.PNG" alt="DATABASE" >
-
+<h3> Sélectionnez les noms des employés qui travaillent dans le département "
+Informatique".</h3>
+ <pre>SELECT employes.NOM,departements.NOM from employes JOIN departements WHERE departements.NOM="Informatique";</pre>
+<img src="emp_informatique.PNG" alt="DATABASE" >
+<h3> Sélectionnez les noms des employés qui travaillent dans le département "
+Informatique".</h3>
+ <pre>SELECT employes.NOM,departements.NOM from employes JOIN departements WHERE departements.NOM=null;</pre>
 
 
 
