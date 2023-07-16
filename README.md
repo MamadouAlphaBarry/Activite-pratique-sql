@@ -13,7 +13,7 @@
 <h4>Sélectionnez toutes les données des employés. </h4>
  <pre> SELECT   * FROM employes; </pres>
 <img src="tousLesEmployes.PNG" alt="DATABASE" >
- <pre> SELECT employes.NOM,departements.NOM FROM `employes` JOIN departements;</pres>
+ <pre> SELECT employes.NOM,departements.NOM FROM `employes` JOIN departements;<pres>
 <img src="EMP_DEP.PNG" alt="DATABASE" >
 
 
