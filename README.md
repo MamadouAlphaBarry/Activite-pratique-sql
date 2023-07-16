@@ -11,9 +11,9 @@
 <img src="dep_data.PNG" alt="DATABASE" >
 <h2>Ecrire des requêtes SQL pour accomplir les tâches suivantes</h2>
 <h4>Sélectionnez toutes les données des employés. </h4>
- <pre> SELECT   * FROM employes; </pres>
+ <pre> SELECT   * FROM employes; </pre>
 <img src="tousLesEmployes.PNG" alt="DATABASE" >
- <pre> SELECT employes.NOM,departements.NOM FROM `employes` JOIN departements;<pres>
+ <pre> SELECT employes.NOM,departements.NOM FROM `employes` JOIN departements;</pre>
 <img src="EMP_DEP.PNG" alt="DATABASE" >
 
 
